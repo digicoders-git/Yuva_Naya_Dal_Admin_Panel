@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #e1e8f5;
+  --color-navy-300: #547bbf;
+  --color-navy-500: #0D47A1;
+  --color-navy-700: #08327a;
+  
+  --color-saffron-50: #fff4e1;
+  --color-saffron-500: #FF9933;
+  
+  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --font-heading: 'Source Sans 3', system-ui, sans-serif;
+  --font-hindi: 'Source Sans 3', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #FFFFFF;
+    color: #0D47A1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
