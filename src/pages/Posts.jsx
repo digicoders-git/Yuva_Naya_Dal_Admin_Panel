@@ -84,7 +84,7 @@ const Enquiries = () => {
         fetchEnquiries();
         if (selectedEnquiry?._id === id) onClose();
       }
-    } catch (error) {
+    } catch {
       toast({ title: 'डिलीट करने में विफल', status: 'error', duration: 3000 });
     }
   };
@@ -153,14 +153,14 @@ const Enquiries = () => {
           </Stack>
 
           <Box overflowX="auto">
-            <Table variant="simple">
+            <Table variant="simple" size="sm" minW="800px">
               <Thead bg="gray.50">
                 <Tr>
-                  <Th color="navy.500" fontWeight="bold">नाम और दिनांक</Th>
-                  <Th color="navy.500" fontWeight="bold">संपर्क विवरण</Th>
-                  <Th color="navy.500" fontWeight="bold">विषय और संदेश</Th>
-                  <Th color="navy.500" fontWeight="bold">स्थिति</Th>
-                  <Th textAlign="right" color="navy.500" fontWeight="bold">कार्रवाई</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">नाम और दिनांक</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">संपर्क विवरण</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">विषय और संदेश</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">स्थिति</Th>
+                  <Th textAlign="right" color="navy.500" fontWeight="bold" whiteSpace="nowrap">कार्रवाई</Th>
                 </Tr>
               </Thead>
               <Tbody>

@@ -180,14 +180,14 @@ const Users = () => {
 
           {/* Table Container */}
           <Box overflowX="auto">
-            <Table variant="simple" size="md">
+            <Table variant="simple" size="sm" minW="800px">
               <Thead bg="gray.50">
                 <Tr>
-                  <Th color="navy.500" fontWeight="bold">आवेदक</Th>
-                  <Th color="navy.500" fontWeight="bold">संपर्क और पता</Th>
-                  <Th color="navy.500" fontWeight="bold">दिनांक</Th>
-                  <Th color="navy.500" fontWeight="bold">स्थिति</Th>
-                  <Th textAlign="right" color="navy.500" fontWeight="bold">कार्रवाई</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">आवेदक</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">संपर्क और पता</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">दिनांक</Th>
+                  <Th color="navy.500" fontWeight="bold" whiteSpace="nowrap">स्थिति</Th>
+                  <Th textAlign="right" color="navy.500" fontWeight="bold" whiteSpace="nowrap">कार्रवाई</Th>
                 </Tr>
               </Thead>
               <Tbody>
