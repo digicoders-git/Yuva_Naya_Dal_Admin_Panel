@@ -79,10 +79,10 @@ const Login = () => {
                 />
               </Box>
               <VStack spacing={0}>
-                <Heading size="md" color="navy-600" fontFamily="hindi" textAlign="center">
+                <Heading size="xl" color="#000080" fontFamily="hindi" textAlign="center">
                   युवा न्याय दल
                 </Heading>
-                <Text fontSize="xs" color="saffron-500" fontWeight="bold" fontFamily="hindi" tracking="widest">
+                <Text fontSize="xs" color="#ff9933" fontWeight="bold" fontFamily="hindi" tracking="widest">
                   (अराजनैतिक)
                 </Text>
               </VStack>
