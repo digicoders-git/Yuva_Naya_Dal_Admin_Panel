@@ -245,7 +245,7 @@ const Settings = () => {
                   <Avatar
                     size="2xl"
                     name={profile.name}
-                    src={profile.profileImage ? `http://localhost:5000/${profile.profileImage}` : undefined}
+                    src={profile.profileImage ? `${API_URL.replace('/api', '')}/${profile.profileImage}` : undefined}
                     bg="navy.500"
                     color="white"
                     border="4px"
